@@ -1,11 +1,13 @@
-import SimpleMap from "./SimpleMap";
+// import SimpleMap from "./SimpleMap";
+import DirectionsExample from "./component/DirectionsExample";
 
 import React from 'react'
 
 const App = () => {
   return (
     <div>
-      <SimpleMap/>
+      {/* <SimpleMap/> */}
+      <DirectionsExample/>
     </div>
   )
 }
